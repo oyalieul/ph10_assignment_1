@@ -1,0 +1,40 @@
+.hero-section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('../images/Hero-bg.png');
+    padding: 50px 0;
+}
+
+.hero-button{
+    background-color: black;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.why-web-part{
+    margin: 50px;
+    width: 80%;
+    background-color: rgba(13, 19, 33, 0.5);
+    text-align: center;
+    /* border-radius: 10px; */
+}
+
+
+
+
+
+/* classes */
+.d-flex{
+    display: flex;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.bg-black{
+    background-color: black;
+}
