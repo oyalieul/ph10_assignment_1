@@ -1,4 +1,4 @@
-.hero-section{
+.hero-section {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -6,7 +6,7 @@
     padding: 50px 0;
 }
 
-.hero-button{
+.hero-button {
     background-color: black;
     padding: 10px 15px;
     color: white;
@@ -14,114 +14,131 @@
     margin-top: 20px;
 }
 
-.why-web-part{
+.why-web-part {
     margin: 50px;
     background-color: rgba(13, 19, 33, 0.02);
     text-align: center;
     /* border-radius: 10px; */
 }
 
-.points{
+.points {
     background-color: white;
 }
 
-.p-gradient-odd{
+.p-gradient-odd {
     background: linear-gradient(to right, rgb(255, 255, 255), rgba(255, 255, 255, 0));
 }
 
-.p-gradient-even{
-    background: linear-gradient(to right, rgb(255, 255, 255,0), rgba(255, 255, 255));
+.p-gradient-even {
+    background: linear-gradient(to right, rgb(255, 255, 255, 0), rgba(255, 255, 255));
 }
 
 
-.point-btn{
+.point-btn {
     background-color: white;
     color: black;
     padding: 5px 15px;
     border-color: rgba(168, 168, 168, 0.434);
 }
 
-.video-border{
+.video-border {
     border: 1px rgba(168, 168, 168, 0.434) solid;
     border-radius: 5px;
     padding: 25px;
 }
 
-.cards{
+.cards {
     padding: 25px;
     height: 250px;
-    width : 250px;
+    width: 250px;
     border-radius: 10px;
 }
 
-.cards-link{
+.cards-link {
     color: black;
 }
 
-.title-paragraphs{
+.title-paragraphs {
     width: 800px;
+}
+
+.bg-img {
+    background-image: url('../images/handshake.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    border-radius: 10px;
+}
+
+#feedback-input{
+    width: 200px;
 }
 
 /* ----------------------------------------------------------------- */
 
 /* classes */
-.d-flex{
+.d-flex {
     display: flex;
 }
 
-.justify-content-center{
+.justify-content-center {
     justify-content: center;
 }
 
-.justify-content-around{
-    justify-content:space-around;
+.justify-content-around {
+    justify-content: space-around;
 }
 
 
-.mt-30{
+.mt-30 {
     margin-top: 30px;
 }
 
-.align-items-center{
+.align-items-center {
     align-items: center;
 }
 
-.flex-column{
+.flex-column {
     flex-direction: column;
 }
 
-.width-80pt{
+.width-80pt {
     width: 80%;
 }
 
-.mtb-15{
+.mtb-15 {
     margin: 15px 0;
 }
 
-.ml-20{
+.ml-20 {
     margin-left: 20px;
 }
 
-.text-left{
+.text-left {
     text-align: left;
 }
 
-.pl-25{
+.pl-25 {
     padding-left: 25px;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
-.bg-black{
+.bg-black {
     background-color: black;
 }
 
-.bg-footer{
+.bg-footer {
     background-color: aliceblue;
 }
 
-.g-4{
+.g-4 {
     gap: 30px;
+}
+
+.text-white {
+    color: white;
 }
