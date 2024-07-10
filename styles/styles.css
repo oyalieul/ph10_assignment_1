@@ -55,7 +55,11 @@
 }
 
 .cards-link{
-    text-decoration: none;  
+    color: black;
+}
+
+.title-paragraphs{
+    width: 800px;
 }
 
 /* ----------------------------------------------------------------- */
